@@ -1,0 +1,917 @@
+@import url("font/stylesheet.css");
+body {font-size:14px; line-height:22px; font-family:'dinregular';}
+h1, h2, h3, h4, h5, .block .block-title, .kids-sec h2, .big-text, .onepage-checkout-impact h3 {font-family:'bebas_neuebold';}
+.soon {text-align:center; font-size:4em; color:#888; font-family:'dinlight'; margin-top: 1em;}
+
+.kids-sec p, .kids-sec h3, .footer-primary a, .payment-sec p, .footer-copyright {font-family:'dinmedium';}
+.make-impact h3, .donation-sec h3 {font-family:'dinlight';}
+.footer .heading, .header-image h1, .contact-title h1 {font-family:'dinregular';}
+.nav-regular .nav-item.level0 > a {font-family:'dinmedium';}
+.dashboard .box-info .box-head h2, .dashboard .box .box-title h3, .dashboard .box-info h4, .dashboard .box-recent .box-head h2, .fieldset .legend,
+.dashboard .box-reviews .box-head h2 {font-family:'bebas_neue_regularregular'; font-weight:normal; letter-spacing:1px;}
+.block-wishlist .block-title {font-family: 'dinmedium';}
+.ia-text h2 {font-family: 'dinmedium'; font-weight: normal;}
+
+.make-impact h3 {font-weight:bold;}
+.kids-sec h2 {font-size:4.5em; letter-spacing:4px;}
+.kids-sec h1, .big-text {font-size:5.5em; letter-spacing:3px;}
+.dashboard .box .box-title h3, .dashboard .box .box-title h4, .order-info-box h2 {letter-spacing:1px;}
+a, a:focus {color:#000;}
+a:hover {color:#888;}
+
+h3 {font-size:1.5em; line-height: 1.5em;}
+.columns p, .columns ul li {opacity:0.9;}
+
+.center-text {text-align:center;}
+.organization-list-item h2.title, .the-designer h2.title, .designer-list-item h2.title {font-size:2.5em; letter-spacing:1px;}
+.the-designer h2.title {margin-bottom:0;}
+.the-designer {border-bottom: 1px solid #e5e5e5; padding-bottom:0.25em;}
+.header-top-container {background-color:#272727; padding:0.4em 0;}
+.header-top, .header-top .item, .header-top .item p, .header-top .links > li > a {font-size:12px; line-height:normal; margin-bottom:0; color:#f1f1f1;}
+.header-top .links > li > a:hover {color:#fff;}
+.header-regular .item-left p {text-transform:uppercase;}
+
+.header-regular .header-top .item-left .user-menu > *, .header-regular .right-column .user-menu .top-links ul {float:none;}
+.header-regular .right-column .item {float:right;}
+.header-regular .right-column .faq-link, .header-top #user-menu-wrapper-regular, .link-edit {display:inline-block;}
+.header-top #user-menu-wrapper-regular {vertical-align: bottom;}
+/*#user-menu .links li:nth-child(1){display:none;}*/
+#user-menu .links li a {padding:0;}
+#user-menu .links li:last-child a {border-left:1px solid #f1f1f1; padding-left:5px; margin-left:6px;}
+.right-column .faq-link {margin-right:5px;}
+.faq-link:hover, .links > li > a:hover {color:#000; opacity:1; background-color:transparent;}
+
+.header-regular .central-column .form-search {border:1px solid #eee;}
+.header-regular .form-search:hover, .header-regular .form-search:active {border-color:#ddd;}
+.form-search .input-text, .form-search .button {color:#242424; opacity:0.7;}
+.form-search .input-text:hover, .form-search .input-text:focus {color:#242424;}
+.form-search .input-text:hover + .button, .form-search .button:hover {color:#242424; opacity:1;}
+
+.header-primary {padding:1.2em 0;}
+.header .logo-wrapper .logo {max-width:100%; margin:18px 0 0;}
+.nav-container, .navi-wrapper, .nav-regular, .sticky-header .nav-container, .sticky-header .navi-wrapper, .sticky-header .nav-regular:not(.nav-vert) {background-color:#fafafa;}
+.nav-regular .nav-item.level0 > a, .nav-regular:not(.nav-vert) .nav-item.level0 > a, .sticky-header .nav-regular:not(.nav-vert) .nav-item.level0 > a {color:#565656;}
+.nav-regular:not(.nav-vert) .nav-item.level0.active > a, .nav-regular:not(.nav-vert) .nav-item.level0:hover > a {background-color:#000; color:#fff;}
+
+.header-container nav .nav-item--home, .breadcrumbs {display:none;}
+.header-regular .nav {margin-bottom:0;}
+.nav-regular .nav-item {margin-right:0.1em;}
+.nav-regular .nav-item.level0 > a {padding:0.9em 1.5em;}
+.vertnav-trigger, .nav-regular .nav-item.level0 > a {font-size:15px; line-height:23px; font-weight:normal;}
+.cms-wearable .main-container {margin-top:1.9em;}
+.cms-wearable .main {padding:0;}
+
+.nav-holder .dropdown .dropdown-heading {font-size:14px;}
+.caption.top-right {width:96%; margin:0; bottom:15%; top:auto; text-align:center;}
+.caption.light1 .heading, .caption.top-right .big-title, .caption.light1 p, .heading, a:hover .caption.light1 p {background-color:transparent; color:#fff;}
+.caption.top-right p {display:inline-block; padding:0 1em 0.5em; float:none; border-bottom:2px solid #fff; margin-bottom:1em;}
+.caption.top-right .big-title {font-size:2.4em; letter-spacing:1px; display:block;}
+.caption > * {float:none;}
+
+.pagination-pos-bottom-centered .owl-pagination {bottom:1em; padding:0;}
+.slider-pagination1 .owl-controls .owl-page span {width:8px; height:8px;}
+.the-slideshow.slider-pagination1 .owl-controls.clickable .owl-page.active:hover span,
+.the-slideshow.slider-pagination1 .owl-controls .owl-page.active span {background-color:#f9f9f8; opacity:1;}
+.the-slideshow.slider-pagination1 .owl-controls .owl-page span {background-color:#fff; opacity:0.6;}
+
+.dropdown .dropdown-heading {line-height:57px;}
+.dropdown .dropdown-heading .label, .mini-cart .mini-cart-heading .ic {color:#000;}
+.dropdown .caret {border-top-color:#000; opacity:1; margin:0.5em 0 0.4em 0.25em;}
+.dropdown .caret:before {color:#000;}
+.dropdown.open > .dropdown-heading.cover {box-shadow: none;}
+.header-container .dropdown.open > .dropdown-heading.cover > * {background-color:#000;}
+.header-container .dropdown.open > .dropdown-heading.cover .ic, .dropdown.open .caret:before {color:#fff;}
+.header-container .dropdown.open > .dropdown-heading.cover .caret {border-top-color:#fff;}
+.header-container .dropdown .dropdown-content {background-color:#fff; color:#000; border:1px solid #eee; margin-bottom:0;}
+.mini-cart.dropdown .mini-cart-content {padding: 0.75em;}
+.dropdown .dropdown-content {top:3.6em;}
+
+.mini-cart .mini-cart-content .block-subtitle {margin-bottom:8px; font-weight:normal;}
+.header-container .mini-products-list .product-details a {color:#000;}
+.mini-cart .mini-cart-content .actions button:first-child {margin-right:1em;}
+.mini-cart .mini-cart-content .subtotal {margin:0.75em 0; font-weight:normal;}
+
+.skip-link .count {background-color:#fff; color:#000; border:1px solid #000; width:20px; height:18px; font-size:11px; line-height:18px;}
+.mini-compare {display:none;}
+
+.ia-text {position:relative; margin-bottom:1.3em;}
+.ia-text h2 {position:absolute; top:60%; font-size:1.6em; width:90%; left:0; right:0; margin:auto; color:#fff; text-align:center;}
+.ia-text h2 span {display:block; margin-bottom:1em;}
+.ia-text h2 a {color:#f1f1f1;}
+.ia-text h2 a:hover {color:#a7a9ac;}
+.ia-text.last {margin-bottom:0;}
+.ia-text.last h2 span {margin-bottom:6px;}
+.ia-text.last h2 {top:82%;}
+.designer-products-container h2 {padding-bottom:0.1em; font-size:1.75em; border-bottom:1px solid #eee; margin-bottom:0.6em;}
+.pagination-pos-bottom-centered {padding:20px 0;}
+.kids-sec, .make-impact {text-align:center;}
+.kids-sec h1, .kids-sec h2, .kids-sec h3, .big-text, .learn-more {text-transform:uppercase; line-height:normal; color:#000;}
+.kids-sec h2 {position:relative; padding-bottom:0.15em; margin-bottom:0.5em;}
+.kids-sec h2:after {position:absolute; content:""; width:32px; height:2px; background-color:#000; bottom:0; left:0; right:0; margin:auto;}
+.kids-sec h1, .big-text {margin:0.3em 0 0.2em;}
+.kids-sec p {color:#a7a9ac; font-size:1.3em; line-height: 1.8em; margin-top: 0.75em;}
+.kids-sec h3, .make-impact h3 {font-size:1.3em;}
+
+.impact {background-color:#f9f9f9;}
+.make-impact {padding:1em 0; margin-top:4em;}
+.make-impact h3 {line-height:1.8em; width:80%; margin:0 auto;}
+.learn-more {font-size:1.1em; color:#000; padding:1em 2em; border:1px solid #e7e7e7; background:#fff; display:inline-block;}
+.make-impact .learn-more {padding:1.9em 4em; margin:1em 0 3.5em;}
+.learn-more:before {background:#000;}
+.impact-link {margin:3.5em 0 3em; width:100%; overflow:hidden;}
+.impact-link li {width:33%; float:left;}
+.impact-link li a {display:inline-block; transition: all 0.5s ease-in-out 0s;}
+.impact-link li i {width:30px; height:36px; display:block; margin:0 auto 1em; position:relative;}
+.impact-link li i:before {position:absolute; content:""; background:url(../images/product-icon.png)no-repeat; width:30px; height:36px; left:0; top:0;
+ transition: all 0.5s ease-in-out 0s;}
+.impact-link .cause i:before {background-position:0 0;}
+.impact-link .shop-pro i:before {background-position:-40px 0;}
+.impact-link .get-curr i:before {background-position:-81px 0;}
+.impact-link .donate i:before {background-position:-120px 0;}
+.impact-link .cause a:hover i:before {background-position:0 -40px;}
+.impact-link .shop-pro a:hover i:before {background-position:-40px -40px;}
+.impact-link .get-curr a:hover i:before {background-position:-81px -40px;}
+.impact-link .donate a:hover i:before {background-position:-120px -40px;}
+.impact-link li a:hover {color:#4e4e4e;}
+.grid12.impacts-org {margin-bottom:2em; overflow: hidden;}
+
+.footer-container {background-color: transparent;}
+.footer-primary-container {padding:0;}
+.footer-primary-container .footer-primary {border-top:1px solid #ccc; padding:3em 0 2.5em; border-bottom: 1px solid #f0f0f0;}
+.footer-primary li a {font-size:14px;}
+.footer-social .number {width:100%;}
+.footer-social li {/*float:left; width:50%;*/ margin-bottom:0.5em;}
+.footer-social li .ib {background-color:#c7c7c7; color:#fff; border:1px solid #c7c7c7; font-size:14px; line-height:25px; width:25px; height:25px;
+border-radius:0; margin:0 3px 0 0;}
+.footer-social li a {color:#686868; transition: all 0.5s ease-in-out 0s;}
+.footer-social li a:hover .ib-hover {background-color:#000 !important; color:#fff !important; border-color:#000;}
+.footer-secondary {text-align:center; color:#242424; opacity:0.8;}
+.payment-sec .midium {font-size:1.4em; margin-right:0.2em;}
+.payment-sec .big {font-size:2.2em; margin-right:0.3em; color:#000;}
+.payment-sec small {margin-right:0.5em; font-size:13px;}
+.payment-sec img {vertical-align:middle;}
+.payment-sec p {margin:1.8em 0; color:#242424;}
+.footer-bottom-container {background-color:transparent;}
+.footer-bottom-container .item-left {float:none; text-align:center;}
+.footer-bottom-container .footer-bottom {padding:2.5em 0; border-top:1px solid #f0f0f0;}
+
+.footer .heading {margin-bottom:0.6em; font-size:1.2em; color:#000;}
+.footer-menu li {margin-bottom:4px;}
+.footer-menu li a {color:#686868}
+.footer-menu li a:hover, .footer-social li a:hover {color:#000;}
+.footer-copyright {color:#242424; font-size:14px;line-height:20px;margin:0; opacity:0.8;}
+.footer-primary-bottom-spacing {display:none;}
+
+#scroll-to-top {background-color:#888; color:#fff;}
+.bold {font-weight:bold;}
+.alpha1 {text-transform:uppercase;}
+.col2-right-layout .page-title {margin-bottom:5px;}
+
+.title30 {font-size:30px; line-height:38px;}
+.margin1 {margin:1em 0;}
+
+.cms-changing-lives .page-title {margin-bottom:10px;}
+.page-title h1 {font-weight:normal;}
+.about-img img {width:100%;}
+.about-img, .kids-group {padding-bottom:1.5em; border-bottom:1px solid #e5e5e5; margin-bottom:2em; overflow:hidden;}
+
+.kids-group {margin-bottom:0; border-bottom:none;}
+.kids-img {float:left; margin-right:2.5em;}
+.kids-group p, .impact-ac p {font-size:1.25em; line-height:1.7em; margin-bottom:0;}
+.kids-group .bold {margin-bottom:2em;}
+.kids-group .short-text p {font-size:1.3em; line-height:2em;}
+
+.impact-work h2 {margin-top:1.25em; text-transform:uppercase;}
+.impact-work p, .impacts-org p.bold, .world-vision p {font-size:1.2em; line-height:1.5em; margin-bottom:0.7em;}
+.world-vision p {font-size:1.05em; line-height:1.6em;}
+.impact-work p {margin-bottom:0.5em;}
+.impact-ac .more {text-transform:uppercase;}
+.imp-sec {margin:2.75em 0 1em;}
+.imp-sec p, .the-designer > p, .changing-live p {font-size: 1.05em; line-height:1.6em; margin-bottom:0.6em;}
+.imp-sec p {font-size:1.2em;}
+.the-designer > p {font-size:1.4em;}
+.imp-sec h2 {margin:1em 0 0;}
+.impact-ac, .impacts-org {text-align:center;}
+.impact-ac .margin1 {margin:1em 0;}
+.title-up {text-transform:uppercase;}
+.login-area {margin:0 auto; float:none;}
+.login-area li {display:inline-block;}
+.login-area li:first-child {margin-right:0.7em;}
+.changing-live .project-area {text-align:center;}
+.changing-live .project-area p {font-size:1.2em; margin:0.5em 0 0;}
+
+.ziggiee-impacts {margin-bottom:2em; overflow:hidden;}
+.ziggiee-impacts h2 {text-align:left;}
+.ziggiee-impacts p.bold {border-bottom:1px solid #000; display:inline-block; padding:0.6em 0.75em 0.1em;}
+.ziggiee-impacts h3, .impacts-org h3 {font-weight:bold; font-size:2em; padding-top:5px; margin-bottom:0;}
+.ziggiee-impacts a:hover img {opacity:0.7;}
+.for-children {text-align:left; margin:4em 0 3em; overflow:hidden;}
+.for-children p {line-height:1.6em; margin-bottom:0.6em;}
+.impacts-org p {padding:0 1em; font-size:1.1em; line-height:1.5em;}
+.impacts-org p.bold {margin:0.75em 0 0.5em;}
+.impacts-org p.last {margin-bottom:0;}
+.impacts-org .learn-more {margin:2em 0 3em; padding:1.5em 3em;}
+
+.more, .more1 {font-size:14px; line-height:20px; color:#fff; padding:0.5em 1.5em 0.6em; border:1px solid #000; background:#000; display:inline-block;}
+.more:before {background:#fff; color:#000;}
+.more:hover {color:#000;}
+
+.more1 {border:1px solid #000; background:#fff; color:#000;}
+.more1:before {background:#000; color:#fff;}
+.more1:hover {color:#fff;}
+.sideacco .nav-item > a:hover {background-color:#000000;}
+
+.world-vision {width:100%; overflow:hidden; margin:1em 0 2em;}
+.vision-img {padding:1em;border:1px solid #eee;display:inline-block;}
+.world-vision .first {margin:0.5em 0;}
+
+.ib, .feature > span.icon {background-color:#ddd;}
+.ib-hover:hover, .feature-icon-hover:hover .ib, .icon-hover:hover, .feature-icon-hover:hover > span.icon {background-color:#333 !important;}
+.addthis_toolbox a .at-icon-wrapper, .addthis_toolbox a .at-icon-wrapper .at-icon {width:24px !important; height:24px !important;}
+.ratings, .no-rating {line-height: 1.5em; margin: 0.5em 0;}
+.product-view .box-reviews .form-add .form-list textarea {width:45.5%;}
+
+.form-list label {font-weight:normal;}
+.product-view .product-shop .product-name h1, .products-list .product-name {margin: 0 0 5px; font-size: 1.65em; line-height: 1.3em; letter-spacing: 1px;}
+.product-view .product-shop .product-name, .products-list .desc {margin:0;}
+.add-to-cart .qty-buttons-wrapper {margin-left:-4px; border:1px solid #ddd; border-left:none;}
+
+.price-box .price, .price-as-configured .price {color:#000;}
+.products-list .btn-cart, .products-list .add-to-links .link-wishlist {max-width:150px; width:100%;}
+.products-list .add-to-links .link-wishlist {display: inline-block; margin-right:0; max-width:108px;}
+
+.account-login .buttons-set .button, .account-create .buttons-set .button, .customer-account-forgotpassword .buttons-set .button, .contacts-index-index .buttons-set .button,
+.catalogsearch-advanced-index .buttons-set .button, #oar_widget_orders_and_returns_form .buttons-set .button {min-width:120px;}
+.product-view .btn-cart, .btn-checkout:hover {background-color:#ddd; color:#000;}
+
+.button, .products-list .add-to-links .link-wishlist, .link-edit {font-size:14px; line-height:40px; padding: 0 1.5em; background-color:#eee; color:#000;}
+.button:hover, .button:focus, .qty-button:hover, .product-view .btn-cart:hover, .btn-checkout, .products-list .add-to-links .link-wishlist:hover,
+.add-to-links .ic:hover, .sidebar .block .actions a:hover, .sidebar .block .actions a:focus, .mini-products-list .product-details .link-cart:hover,
+.sidebar .block .actions .button:hover {background-color:#000; color:#fff;}
+.btn-checkout:hover {background-color:#ddd; color:#000;}
+
+.sidebar .block .actions a, .sidebar .block .actions .button, .mini-products-list .product-details .link-cart {font-size:12px; line-height:30px; padding: 0 1em; background-color:#eee; color:#000;
+display:inline-block; font-weight:normal;}
+.mini-products-list .product-details .link-cart {margin-top:2px;}
+.gen-tabs .tabs #tab-tags, .gen-tabs .tabs #tab-product_cms_block1, .nested-container .product-lower-primary-column-part2.box-additional,
+.products-list .add-to-links .link-compare, .product-view .add-to-links .link-compare, .addto-links-icons .link-compare,
+.product-view .block_product_replace_related {display:none;}
+.product-view .box-additional {clear:left; margin-top:0;}
+
+.product-view .product-img-column.grid12-4, .map, .no-gutter.grid-col2-sidebar, .product-view .short-description .std p {margin-bottom:0;}
+.footer-bottom .item, .product-view .product-type-data > .price-box, .product-view .action-box {margin:0;}
+.help-links .mail-id {margin-left:4px;}
+.my-wishlist p.wishlist-empty {float:right;}
+
+.product-view .short-description {margin: 10px 0;}
+.add-to-cart .btn-cart, .btn-cart {line-height:24px; font-size:0; min-width:100px;}
+.add-to-cart .btn-cart .ic-cart:before, .btn-cart .ic-cart:before {font-size:20px; line-height: 40px;}
+.category-products .block-vertnav .block-title, .catalog-category-view .block-vertnav .block-title {font-size:2em;}
+.catalog-category-view .block-layered-nav .block-content {padding-top:0;}
+
+
+.product-view .btn-cart {min-width: 100px;}
+#review-form a {color:#000; font-weight:bold;}
+.gen-tabs .tabs a.current {color:#000;}
+#print-pdf {padding:0 15px;line-height:36px;font:14px/36px Arial;height:auto;background-color:#eee;color:#000;border:none; cursor:pointer;}
+#print-pdf:hover {background-color:#000; color:#fff;}
+.wearable-impact-index-organization .box-account {margin-bottom:1em;}
+.dashboard .box-reviews .box-head h2 {font-size: 1.75em;}
+
+.customer-account-login .account-login .page-title, .customer-account-forgotpassword .page-title, .customer-account-create .page-title,
+.customer-account-changeforgotten .page-title {margin: 2.5em 0 0.5em;}
+.customer-account-forgotpassword .page-title, .customer-account-create .page-title {margin-bottom:0;}
+.customer-account-changeforgotten form .fieldset {margin-top:0 !important;}
+.my-account .imp-org h1 {float:left;}
+.my-account .imp-org #print-pdf {float:right;}
+
+.customer-account .my-account .page-title {padding-bottom:0.5em; margin-bottom:1em;}
+.dashboard .welcome-msg .hello {font-size:1.25em; line-height:1.5em;}
+.dashboard .box-account .box .box-title a, .dashboard .box-account .box .box-content a {font-size:1em; line-height:1.4em; color:#000;}
+.dashboard .box-account .box .box-title a:hover, .dashboard .box-account .box .box-content a:hover {color:#686868;}
+
+.sideacco li.current > a, h2.product-name a:hover, h3.product-name a:hover, h4.product-name a:hover, h5.product-name a:hover, h6.product-name a:hover,
+strong.product-name a:hover, p.product-name a:hover {color:#000;}
+.ib-hover.icon-color-productview:hover, .feature-icon-hover:hover .ib.icon-color-productview, .feature-icon-hover:hover span.icon.icon-color-productview
+{background-color:#000 !important;}
+.success-donation {border:1px solid #c1ea86; background-color: #e9ffca; color: #296a23; padding:0.75em 1em; margin-bottom:2em; text-align:center;}
+
+.cart-table .product-name {margin: 0; font-size:1.1em; line-height: 1.2em;}
+.data-table tr.odd td.last, .data-table tr.even td.last {border-right:1px solid #ddd;}
+.data-table thead th, .data-table thead td, .data-table tr.odd td, .data-table tr.odd th, .data-table tr.even td, .data-table tr.even th {border:1px solid #ddd;}
+.cart .totals .checkout-types li a {color:#0bbde4;}
+.cart .totals .checkout-types li a:hover {color:#000;}
+.opc .active .step-title .number {background:#000;}
+.opc .step-title .number{background:#fff; color:#333;}
+.opc .step-title h2{line-height:1.5em; font-size: 1.8em; letter-spacing:1px; font-weight:normal;}
+.opc .allow .step-title a{background:#fff; color:#333; padding: 5px 12px; margin:2px;}
+.validation-advice {margin:3px 0 0; font-size:12px;}
+.checkout-onepage-success .grid-col2-main p a, .feature.indent .no-margin a, .cart-empty a {color:#000;}
+.checkout-onepage-success .grid-col2-main p a:hover, .feature.indent .no-margin a:hover, .cart-empty a:hover {color:#000;}
+
+.account-create .form-list .customer-name-middlename .name-lastname input.input-text,
+.my-account .form-list .customer-name-middlename .name-lastname input.input-text {width:100%;}
+.account-create .form-list .customer-name-middlename .field, .my-account .form-list .customer-name-middlename .field,
+.my-account .form-list li.fields .field {width:33.33%;}
+.account-create .customer-name-middlename .name-firstname input.input-text, .account-create .form-list li:nth-child(2) input.input-text,
+.account-create .customer-name-middlename .name-middlename input.input-text, .account-create .form-list .field input.input-text,
+.my-account .customer-name-middlename .name-firstname input.input-text, .my-account .customer-name-middlename .name-middlename input.input-text,
+.my-account .form-list .field input.input-text {width:92%;}
+.sidebar .block-account li > *, .dashboard .box-info h4 {text-transform: capitalize;}
+.sidebar .block-account .block-content ul {margin-top:0.5em;}
+.my-wishlist .btn-cart {line-height:36px; margin:4px 0 5px;}
+.my-wishlist .buttons-set, .my-wishlist fieldset {margin-top:1em;}
+.dashboard .box-info h4 {font-size:1.2em; margin-bottom:5px; letter-spacing:1px;}
+.dashboard .box .box-title h3 {font-size:1.4em; letter-spacing:1px;}
+.block-reorder input.checkbox {margin-top:5px;}
+
+.buttons-set .back-link, .send-friend .buttons-set button.button {margin-right:1em;}
+.customer-account .form-list li:nth-child(2) .input-box #email {width:30.55%;}
+.account-create .form-list li:nth-child(2), .account-create .form-list .field {width:33.3%;}
+.account-login .buttons-set .button, .account-create .buttons-set .button, .customer-account-forgotpassword .buttons-set .button,
+.catalogsearch-advanced-index .buttons-set .button, #oar_widget_orders_and_returns_form .buttons-set .button,
+.contacts-index-index .buttons-set .button{min-width:0;}
+.account-create .buttons-set .back-link {width: 33%;}
+.account-create .buttons-set .back-link a {width:auto;}
+.buttons-set .back-link a {background-color:#eee; padding:0 25px 0 20px; height:40px; line-height:39px; width:auto; display:inline-block;}
+
+.account-login h2 {display: inline-block; margin-bottom:10px;}
+.account-login p.required {text-align:left;}
+.account-login .buttons-set {margin-top:0; width:260px;}
+.account-login .buttons-set a {margin:0.75em;}
+.account-login .form-list input.input-text {width:90%;}
+
+.wishlist-index-share .form-list li.wide textarea {width:100%; height:8em;}
+
+.form-list label {font-weight:normal;}
+.customer-account-forgotpassword .form-list input.input-text {width:320px;}
+.buttons-set .back-link a:hover {background-color:#000; color:#fff;}
+.customer-account-forgotpassword .buttons-set .back-link {margin-right:5.6em;}
+.customer-account-forgotpassword .buttons-set, .customer-account-changeforgotten .buttons-set {float:left; max-width: 320px; margin-top:0;}
+.customer-account-changeforgotten .buttons-set button.button {margin-left:0; float:left;}
+
+.customer-account-forgotpassword .buttons-set p.required, .customer-account-changeforgotten .buttons-set p.required {display:none;}
+#checkoutSteps .form-list .field:first-child {float:left; width:48%;}
+#checkoutSteps .form-list .field:last-child {float:right; width:48%;}
+#checkoutSteps .form-list #billing-new-address-form ul li.fields:nth-child(2) .field {float:none;}
+#checkoutSteps #opc-review .btn-checkout {min-width:0; float:right;}
+#checkoutSteps #opc-review .buttons-set p a {color:#000; font-weight: bold;}
+#checkoutSteps #opc-review .buttons-set p a:hover {color:#888;}
+#checkoutSteps .form-list .field:first-child input.input-text, #checkoutSteps .form-list .field.name-lastname input.input-text {width:100%;}
+#checkoutSteps .form-list .customer-name-middlename .field {width:33.33%;}
+#shipping-new-address-form li .fields input.input-text, #checkoutSteps .form-list .field input.input-text, #checkoutSteps .form-list select{width:100%;}
+#checkoutSteps .form-list .customer-name-middlename .name-middlename input.input-text,
+#checkoutSteps .form-list .field.name-firstname input.input-text {width:92%;}
+
+#checkout-review-submit .buttons-set {margin-top:0;}
+.form-list .wide input.input-text {width:100%;}
+#opc-shipping .buttons-set p.required, #opc-billing .buttons-set p.required {float:right;  margin:-40px 0 0;}
+#opc-shipping .buttons-set button.button {float:right;}
+#opc-login .form-list input.input-text {width:100%;}
+#opc-shipping_method .back-link, #opc-payment .back-link {margin-right:10px;}
+#opc-payment .form-list select {width:262px;}
+#opc-payment #authorizenet_cc_type_exp_div .v-fix select {width:126px;}
+.cvv-what-is-this {line-height:35px;}
+
+#contactForm .buttons-set {float:left; margin:0 0 1em; padding-top:0;}
+#contactForm p.required {display:none;}
+#contactForm .buttons-set button.button {float: left; margin-left: 0;}
+#contactForm .form-list li.fields .field:first-child {width:48%; float:left;}
+#contactForm .form-list li.fields .field:last-child {width:48%; float:right;}
+#contactForm .form-list > li:nth-child(2) {width:48%;}
+#contactForm .form-list input.input-text {width:100%;}
+#contactForm textarea {max-width:100%;}
+#contactForm .fieldset .legend {letter-spacing:1px;}
+
+.block-account .block-title {padding-top:4px;}
+.block .actions a, .cart-empty a, .checkout-onepage-success .column-main p a {font-weight:bold; color:#000;}
+.sidebar .block .actions a {font-weight: normal;}
+.customer-account-edit .my-account .buttons-set, .customer-account-edit .my-account .buttons-set button.button {float:left;}
+
+.contact_form .buttons-set {border:none; margin:25px 0 15px;}
+.buttons-set {border:none; margin-top:10px;}
+.account-create .buttons-set {float: left; width: 64%;}
+.opc-block-progress .block-title, .block .block-title, .block-account .block-title, .onepage-checkout-impact h3 {font-size:1.7em; line-height: normal; letter-spacing:1px;}
+.onepage-checkout-impact {margin-bottom:1em;}
+.onepage-checkout-impact h3 {margin-bottom:5px; padding-bottom:5px; border-bottom:1px solid #e5e5e5;}
+.block-wishlist .block-title {font-size:1.2em; font-weight:normal;}
+.block .block-subtitle {margin:0 0 2px; padding: 0; font-size: 1.1em; font-weight: normal;}
+.dashboard .box-info .box-head h2 {font-size:1.7em;}
+
+.block-progress address, .block-progress dd {font-style:normal; font-size: 13px; line-height:25px;}
+.mini-cart .mini-cart-content .actions .btn-checkout {float:right;}
+
+.block-progress dl {margin-top: 0;}
+.block-progress dt {margin:0 0 5px; background:#f5f5f5; padding:10px; font-weight:normal; text-transform:capitalize;}
+.block-progress dt .changelink, .block-progress dt a:hover {color:#3ec2df;}
+.block-progress dt a {font-size:12px; color:#00aeef;}
+
+.checkout-onepage-success .column-main .sub-title {font-size: 1.5em;line-height: 1.25em;color: #565656;}
+.header-mobile .skip-links--5 .skip-compare, .header-regular .hp-blocks-holder .hp-block.right-column {display:none;}
+
+.cms-wearable .preface{width:100%; overflow: hidden;}
+.product-view .product-type-data, .product-view .add-to-box {margin:0;}
+.cms-wearable .columns {display: -webkit-inline-box;}
+.header-image{width: 100%;}
+.header-image img{width: 100%;}
+.availability {color: #333; margin: 10px 0 0;}
+.gen-tabs #acctab-tags {display:none !important;}
+.cart .totals-inner {padding: 1em 1em 0.5em;}
+.cart .totals.alpha {margin-bottom:0.5em;}
+.cart .impact-currency-cart {text-align: right; clear: left;}
+.cart .impact-currency-cart h3 {margin:1em 0 0.1em; display:inline-block; padding-right:1.1em;}
+.cart .impact-currency-cart p {display: block; padding: 0.5em 1em; background-color:#f5f5f5; color: #000;}
+.cart .impact-currency-cart p span {width:50%; display: inline-block;}
+/* For Impact account */
+.impactorganization-list-container, .organization-list-item, .designer-list-container, .designer-list-item{width: 100%;}
+.designer-list-item, .the-designer {margin-top:3em; overflow: hidden;}
+.designer-list-container .designer-list-item:first-child {margin-top:2em;}
+.designer-list-item .right-item h2 {margin-bottom: 5px;}
+.designer-list-item:last-child {margin-bottom:2em;}
+.designer-products-container{margin: 30px 0; width: 100%; float: left;}
+.designer-products-container li img {margin-bottom:0.75em;}
+.designer-products-container ul, .impact-account-list, .donation-table, .impact-account-details, .impact-account-details td table {width:100%;}
+.designer-products-container ul li{width:30%; float: left; padding: 0 10px 0 0; text-align: center;}
+.impact-account-list th, .impact-account-list td, .donation-table th, .donation-table td, .impact-account-details td, .impact-account-print th, .impact-account-print td {padding:8px 10px; border:1px solid #eee;}
+.donation-table.data-table {margin-top:3em;}
+.donation-table.data-table th, .donation-balance td:first-child, .impact-account-details td:first-child, .impact-account-print th {background-color:#fafafa;}
+.impact-account-print th {font-weight:bold;}
+.donation-table select {height:auto;}
+.donation-table input {padding:7px 10px; border:1px solid #ddd;}
+.donation-table input:focus, .donation-table select:focus {border-color:#333;}
+.donation-table input[type="submit"] {margin:1em 0; font-size: 14px; padding: 0.6em 1.2em; background-color: #000000; color: #fff; cursor:pointer;}
+.donation-table input[type="submit"]:hover, .donation-table input[type="submit"]:focus {background-color: #eee; color: #000;}
+.page-title h1 .low-size {font-family:'dinregular'; font-size: 16px;}
+.imp-org h1 {line-height: normal; padding-top: 0.2em;}
+.impact-account-details td.w-img {vertical-align:middle;}
+.sales-order-history .my-account .pager {margin-top: -5px; padding-top: 0; border-top: none;}
+
+.total-impact-account-list{width:100%;float:left;margin:0 0 1.5em;}
+.total-impact-account-list li{width:28%;float:left;padding:1em 1.1em;margin-right:2%; position:relative;}
+.total-impact-account-list li:nth-child(1){background:rgb(202, 15, 15);}
+.total-impact-account-list li:nth-child(2){background:rgb(52, 202, 15);}
+.total-impact-account-list li:nth-child(3){background:rgb(15, 142, 202); margin-right:0;}
+.total-impact-account-list li p{color:#fff;}
+.total-impact-account-list li p:nth-child(1){width:70%;float:left;font-size:1.2em;}
+.total-impact-account-list li p:nth-child(2){width:auto;font-size:1.7em; position:absolute; right:6%;}
+.my-impact-filter{margin:30px 0;width:100%;float:left;}
+
+
+#mainmenu .nav-item .caret, #mainmenu .nav-item ul{display:none !important;}
+.product-impact-curreny{width: 100%; float:left; margin-bottom:0.75em;}
+.share-this-product{float:right;}
+div[itemprop="offers"]{/*display: none;*/}
+.read-more a {padding: 0.3em 1em; border: 1px solid #000; display: inline-block; margin-top: 0.5em;}
+.read-more a:hover {background-color:#000; color:#fff;}
+
+.cms-discover-ziggie .page-title, .cms-make-an-imapct .page-title {margin-bottom:5px;}
+.cms-make-an-imapct .page-title {margin-top:1em;}
+/* End Impact account */
+.impact-work h2 {margin-bottom:5px;}
+.header-image h1, .contact-title h1 {position:absolute;color:#fff; font-size:4.4em; top:38%; left:0; right:0; margin:auto; text-transform:uppercase;}
+.header-image {position:relative; height:250px; overflow:hidden; text-align:center; background-repeat:no-repeat !important; background-size:cover !important; background-position:center !important;}
+.wearable-designers-designer-view .header-image img, .wearable-designers-designer-index .header-image img, .wearable-impactorganization-impactorganization-view .header-image img {display:none;}
+.responsive .main {padding-top:0;}
+.responsive.category-products .main, .cms-make-an-imapct .main, .checkout-onepage-index .main, .customer-account .main,
+.cms-discover-ziggie .main, .cms-changing-lives .main {padding-top:1.5em;}
+.responsive.category-products .main, .catalog-category-view .main {padding-top:2.5em;}
+.cms-discover-ziggie .page-title {margin-top:1.5em;}
+.cms-changing-lives .title {margin-top:0.6em; letter-spacing:1px;}
+.page-title.contact-title h1 {font-size:5em; text-align:center; font-weight:600; top:34%;}
+.page-title h1, .page-title h2 {letter-spacing:1px;}
+.margint1 {margin-top:1em;}
+.margint2 {margin-top:2em;}
+
+.list-style {padding-left:1.5em;}
+.list-style li {list-style-type:circle; font-size:1.1em; margin-bottom: 5px;}
+.share-icons{text-align: center;}
+.share-icons li{display: inline-block;}
+.share-icons li:first-child {margin-right:1em;}
+
+
+
+.loader {display:none; position: fixed; background-color:rgba(255, 255, 255, 0.75); left: 0; right: 0; top: 0; bottom: 0; margin: auto; z-index: 99999; width: 100%; height: 100%; padding-top:50%;}
+.loader img {max-width:80px;}
+.page-sub-title h2{font-size: 1.8em;}
+.donation-sec{margin-bottom: 25px;}
+.donation-table.data-table.list-item {margin-top:1.5em;}
+
+.contact-text{width:100%; float:left;}
+.catalog-category-view .page-title h1 {color:#fff;}
+
+
+/* Ticker Swipe, starts here */
+#ticker-wrapper.has-js {
+	margin: 0;
+	padding: 0;
+	height: 32px;
+	display: block;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	background-color: #272727;
+	font-size: 0.75em;
+	position: absolute;
+	top: 0px;
+	z-index: 10;
+}
+#ticker {
+	height: 16px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	background-color: #272727;
+	margin: 12px 0 0 0;
+
+}
+
+#ticker-title {
+	padding-top: 0;
+	color: #fff;
+	font-weight: normal ;
+	background-color: #272727;
+	text-transform: uppercase;
+	font-size:11px;
+}
+
+#ticker-content {
+	margin: 0px;
+	padding-top: 0;
+	position: absolute;
+	color: #fff;
+	font-weight: normal;
+	background-color: #272727;
+	overflow: hidden;
+	white-space: nowrap;
+	font-size: 11px;
+	left: 80px !important;
+	text-transform: uppercase;
+}
+
+#ticker-content:focus {
+	none;
+}
+#ticker-content a {
+	text-decoration: none;
+	color: #1F527B;
+}
+#ticker-content a:hover {
+	text-decoration: underline;
+	color: #0D3059;
+}
+#ticker-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	background-color: #272727;
+	display: block;
+	width: 800px;
+	height: 23px;
+}
+#ticker-swipe span {
+	margin-left: 1px;
+	background-color: #272727;
+	border-bottom: 1px solid #fff;
+	height: 12px;
+	width: 7px;
+	display: block;
+}
+#ticker-controls {
+	padding: 8px 0px 0px 0px;
+	list-style-type: none;
+	float: left;
+}
+#ticker-controls li {
+	padding: 0px;
+	margin-left: 5px;
+	float: left;
+	cursor: pointer;
+	height: 16px;
+	width: 16px;
+	display: block;
+}
+#ticker-controls li#play-pause {
+	background-image: url('../images/controls.png');
+	background-position: 32px 16px;
+}
+#ticker-controls li#play-pause.over {
+	background-position: 32px 32px;
+}
+#ticker-controls li#play-pause.down {
+	background-position: 32px 0px;
+}
+#ticker-controls li#play-pause.paused {
+	background-image: url('../images/controls.png');
+	background-position: 48px 16px;
+}
+#ticker-controls li#play-pause.paused.over {
+	background-position: 48px 32px;
+}
+#ticker-controls li#play-pause.paused.down {
+	background-position: 48px 0px;
+}
+#ticker-controls li#prev {
+	background-image: url('../images/controls.png');
+	background-position: 0px 16px;
+}
+#ticker-controls li#prev.over {
+	background-position: 0px 32px;
+}
+#ticker-controls li#prev.down {
+	background-position: 0px 0px;
+}
+#ticker-controls li#next {
+	background-image: url('../images/controls.png');
+	background-position: 16px 16px;
+}
+#ticker-controls li#next.over {
+	background-position: 16px 32px;
+}
+#ticker-controls li#next.down {
+	background-position: 16px 0px;
+}
+.js-hidden {
+	display: none;
+}
+#no-js-news {
+	padding: 10px 0px 0px 45px;
+	color: #F8F0DB;
+}
+.left #ticker-swipe {
+
+}
+.left #ticker-controls, .left #ticker-content, .left #ticker-title, .left #ticker {
+	float: left;
+}
+.left #ticker-controls {
+	padding-left: 6px;
+	display: none;
+}
+.right #ticker-swipe {
+	right: 80px;
+}
+.right #ticker-controls, .right #ticker-content, .right #ticker-title, .right #ticker {
+	float: right;
+}
+.right #ticker-controls {
+	padding-right: 6px;
+}
+
+#ticker-wrapper.has-js {
+	width: 800px;
+}
+#ticker {
+	width: 731px;
+}
+/* Ticker Swipe, Ends here */
+
+@media (min-width:1100px) and (max-width:7000px){
+.page-layout-2columns-right .column-main {width:75%;}
+.page-layout-2columns-right .sidebar-additional {width:22%; padding-left:0;}
+.wishlist-index-index .my-account > .buttons-set {float:left; margin-top:-3.7em;}
+
+}
+
+
+@media (min-width:901px) and (max-width:7000px){
+.nav-regular .nav-item.level0.right > a {background-color:#000; color:#fff; border:1px solid transparent; line-height:21px;}
+.nav-regular .nav-item.level0.right:hover a {background-color:#fff; color:#000; border-color:#000;}
+.sticky-header .nav-regular:not(.nav-vert) .nav-item.level0.right  > a {color:#fff;}
+.sticky-header .nav-regular:not(.nav-vert) .nav-item.level0.right:hover  > a {color:#000;}
+.header-regular .header-primary .central-column {padding-right:0;}
+.header-regular .search-wrapper {float:right;}
+.the-slideshow-wrapper-outer{width:74.6%; float:left;}
+.slider-right{float:right;}
+.cms-wearable .preface {margin-bottom:3em;}
+.designer-list-item .left-item {width:18%;}
+.designer-list-item .right-item{width:78%; padding-bottom:10px;}
+
+}
+
+@media (min-width:767px) and (max-width:7000px){
+.inner-container {padding:0;}
+.footer-primary .grid12-4 {width:16%; padding-left:14.5%; margin:0;}
+.page-title h1, .page-title h2, .cms-changing-lives .title, .wearable-impactorganization-impactorganization-view .title {font-size:2.75em; letter-spacing:1px; margin-bottom:0;}
+.checkout-onepage-success .page-title h1, .my-account .page-title h1 {font-size:2em; letter-spacing:1px; min-height:0;}
+.buttons-set p.required {margin-top:-25px;}
+.customer-account-edit .my-account .buttons-set p.required {margin-left:48% !important; float:left;}
+.account-login .new-users {width:58%; float:left; margin-left:0;}
+.account-login .registered-users {width:40%; float:right; margin-right:0;}
+.wishlist-index-share .buttons-set p.required {margin:1.5em 0 0 1em;}
+.changing-live .grid12-9 {width:70%;}
+.changing-live .grid12-3 {float:right;}
+.wearable-impact-index-index .my-account .page-title h1 {float:left;}
+.wearable-impact-index-index .my-account .page-title h3 {float:right; margin-bottom:0;}
+.wearable-impact-index-index .sidebar .block:first-child {margin-top:4px;}
+}
+
+@media (min-width:1001px) and (max-width:1280px){
+.nav-regular:not(.nav-vert) .nav-item.level0 > a {padding:13px 12px; font-size:15px;}
+
+}
+
+@media only screen and (min-width:1100px){
+h2 {font-size:2.2em;}
+.container {max-width:1006px;}
+.wearable-designers-designer-view .main.container, .wearable-designers-designer-index .main.container, .wearable-impactorganization-impactorganization-view .main.container {max-width:100%;}
+.short-wrap {max-width:1006px; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0;}
+.nav-regular:not(.nav-vert) .nav-item.level0 > a {padding: 0.9em 1.2em;}
+}
+
+
+@media only screen and (max-width:1100px){
+.make-impact {margin-top:3em;}
+.make-impact .learn-more {margin: 0 0 2.5em; padding: 1.25em 2.2em;}
+.cms-changing-lives .page-title {margin: 1em 0 0;}
+.buttons-set p.required {display:none;}
+.opc .step {padding:0;}
+.buttons-set {padding-top:0;}
+#checkout-step-login .grid12-6:last-child .buttons-set {margin-top:0;}
+#checkout-step-login .grid12-6:last-child .buttons-set button.button {min-width:0;}
+#contactForm .form-list input.input-text {width: 96%;}
+#contactForm textarea {max-width: 98%;}
+.impact-work h2 {margin: 0.5em 0 0;}
+#scroll-to-top {display:none !important;}
+.impact-ac .page-title {margin:1em 0 0;}
+.kids-sec h2 {letter-spacing:2px;}
+
+}
+
+
+@media (min-width:766px) and (max-width:1100px){
+.footer-primary .grid12-4 {padding-left:12%; width:20%;}
+.kids-sec h1, .big-text {font-size:4.5em; margin-bottom:0;}
+.kids-img {margin-right: 1.5em; width: 50%;}
+.total-impact-account-list li {width:27.5%; padding:1em 1.2em; margin-right: 2%;}
+.ziggiee-impacts {margin: 4em 0 1.5em;}
+.designer-list-item .left-item {margin-top:7px;}
+#opc-login .form-list {margin: 5px 0 12px;}
+#checkout-step-login .buttons-set {margin-bottom:1em;}
+.designer-list-item, .the-designer {margin-top: 2em;}
+}
+
+@media (min-width:901px) and (max-width:1100px){
+.nav-regular:not(.nav-vert) .nav-item.level0 > a {padding: 13px 22px;}
+.cms-wearable .main-container {margin-top:1.25em;}
+.ia-text {margin-bottom:0.75em;}
+.ia-text img {margin-top:-4%;}
+.ia-text.last img {margin-top:0;}
+.make-impact h3 {width:85%;}
+.kids-sec h2, .header-image h1 {font-size:3.8em;}
+.total-impact-account-list li p:nth-child(1) {font-size:1.1em;}
+.nav-regular:not(.nav-vert) .nav-item.level0 > a {padding:13px 15px; font-size:14px;}
+
+
+}
+
+@media (min-width:766px) and (max-width:900px){
+.header-mobile .logo-wrapper--mobile {width:36%; float:left;}
+.header-mobile .clearer.after-mobile-logo {display:none;}
+.header-mobile .skip-links-wrapper {width:60%; float:right;}
+.header-mobile .skip-links--5 .skip-link {width:22%; float:right;}
+.header-mobile .header-top .item:not(.item-interface) {display:block; margin-top:1em;}
+.main {padding-top:1em;}
+.kids-sec h2 {font-size:3em;}
+.the-slideshow-wrapper-outer {float:left; width:74.5%;}
+.slider-right {float:right; width:23.5%;}
+.ia-text {margin-bottom:1.1em;}
+.header-image {height:200px; overflow:hidden;}
+.header-image h1 {font-size:3.5em; top:35%;}
+.product-view .product-shop {width:47%; margin-right:0;}
+.total-impact-account-list li {width:26%;}
+.ia-text h2 {font-size:1.2em; top: 55%;}
+.page-title.contact-title h1 {top:14%; font-size:4em;}
+
+
+}
+
+@media only screen and (max-width:900px){
+
+.header-mobile .logo-wrapper--mobile .logo {margin:1.1em 0.25em 0;}
+.header-mobile .skip-link:hover, .header-mobile .skip-link.skip-active {background-color:#000; color:#fff;}
+.header-mobile .skip-link {height:45px; line-height:45px;}
+.dropdown .dropdown-heading:hover .label, .mini-cart .mini-cart-heading:hover .ic {color:#fff;}
+.header-mobile .skip-content--style {padding:10px; z-index:2;}
+.header-mobile .top-links ul, .header-mobile .nav-mobile ul {padding-left:1px; border:1px solid #ccc; border-bottom:none;}
+.nav-mobile .nav-item.level0 > a, .header-mobile .account-links .links > li > a {background-color:#fff; border-bottom:1px solid #ccc; color:#000;}
+.mobnav-trigger, .nav-mobile .nav-item.level0 > a, .header-mobile .account-links .links > li > a {font-size: 14px; line-height: 22px; padding: 8px 10px; text-transform: capitalize;}
+.nav-mobile .nav-item.level0.current > a {background-color:#fff; color:#000;}
+.header-mobile #header-nav, .header-mobile #header-search, .header-mobile #header-account, .header-mobile #header-cart {position:absolute; top:45px;}
+.header-mobile #header-nav {padding:0; width:194px !important; right:9px;}
+.header-mobile #header-search {width:55% !important; right:1%;}
+.header-mobile #header-account {padding:0; width:100px !important; right:26.8%;}
+.header-mobile #header-cart {width:52% !important; right:1%;}
+.mini-cart .mini-cart-content .empty {background-color:#fff;}
+.cms-wearable .main-container {margin-top:1.25em;}
+.make-impact h3 {width:94%;}
+.make-impact h3 br {display:none;}
+.kids-group .short-text p {font-size: 1.2em; line-height: 1.5em;}
+.kids-group .bold {margin-bottom: 0.5em;}
+.kids-group p, .impact-ac p {font-size: 1.15em;}
+.total-impact-account-list li p:nth-child(1) {font-size:1em;}
+.table-responsive {overflow-x: auto; overflow-y: hidden; width: 100%;}
+.table-responsive table {width:100%; min-width:600px;}
+.the-designer > p {font-size: 1.4em;}
+#ticker-wrapper.has-js {width: 98%; height:25px; position: static;}
+#ticker {width:100%; margin:0;}
+
+}
+
+@media only screen and (max-width:760px){
+#contactForm .form-list li.fields .field:first-child, #contactForm .form-list li.fields .field:last-child, #contactForm .form-list > li:nth-child(2) {width:100%;}
+.header-mobile .skip-links--5 .skip-link {width:25%;}
+.header-mobile .logo-wrapper--mobile .logo {margin: 0.75em 0 0.5em;}
+.header-mobile #header-nav, .header-mobile #header-search, .header-mobile #header-account, .header-mobile #header-cart {right:auto; top:85px;}
+.header-mobile #header-search {width:93.5% !important;}
+.header-mobile #header-account {left:50%; width:87px !important;}
+.header-mobile #header-cart {right:2%;}
+.header-mobile .skip-link.skip-active .count {color:#000;}
+.cms-wearable .main-container, .make-impact {margin-top:0;}
+.kids-sec h1, .big-text {font-size: 3em; letter-spacing: 2px; margin:0;}
+.kids-sec h2 {font-size: 2.6em; letter-spacing: 2px; margin-top:0.7em;}
+.std dl, .std p, .std address, .std blockquote {margin-bottom:0.5em;}
+.impact-link {margin: 1em 0;}
+.make-impact .learn-more {margin-bottom:1em;}
+.footer-bottom-container .footer-bottom {padding:1em 0;}
+.footer-primary-container .footer-primary {padding:1.5em 0 1em;}
+.block-layered-nav--no-filters {display:none;}
+.header-image {height:auto;}
+.kids-sec .big-text {margin-top:0.2em;}
+.header-image h1, .soon {font-size:2em;}
+.kids-sec p, .make-impact h3 {font-size: 1.2em; line-height: 1.5em;}
+.wearable-designers-designer-view .header-image, .wearable-designers-designer-index .header-image, .wearable-impactorganization-impactorganization-view .header-image {min-height:150px;}
+.organization-list-item h2.title, .the-designer h2.title, .designer-list-item h2.title {font-size:2em;}
+.my-wishlist .buttons-set, .my-wishlist fieldset, .the-designer {margin-top:0.5em;}
+.ziggiee-impacts {margin:2em 0 1em; padding-bottom:1em; text-align:center;}
+.ziggiee-impacts li {display: block;float: none;margin: 0 auto 1em; width: 260px !important;}
+.ziggiee-impacts li p, .designer-list-item .right-item h2, .impacts-org p.bold {margin-bottom:0;}
+.designer-list-item {margin-top:1em;}
+.designer-list-item .left-item {float:left; width:22% !important; margin-right:2%;}
+.designer-list-item .right-item {float:left; width:74% !important;}
+.ziggiee-impacts h3, .impacts-org h3 {line-height: normal;margin-bottom: 0.75em;padding-top: 0;}
+.impacts-org p {font-size:1em; padding:0;}
+.impacts-org .learn-more {margin: 0; padding: 1em; line-height:1.4em;}
+.product-view .add-to-cart .btn-cart {display: inline-block; margin: 0; width: auto; float:none; padding:0 1em;}
+.buttons-set .button, .title-buttons .button, .cart .btn-checkout, .mini-cart .actions .button, .mini-compare .actions .button {width:auto;}
+.checkout-onepage-success .buttons-set button.button {float: left; margin-left:0;}
+.caption > * {display: inline-block !important;}
+.caption.top-right .big-title {display: block !important;}
+.caption.top-right .big-title {font-size:30px;}
+.buttons-set .back-link {display: inline-block;}
+.account-create .buttons-set .back-link {min-width:75px; padding-right:0;}
+.account-create .buttons-set {margin-top:0;}
+.mini-cart .mini-cart-content .empty {padding: 5px 10px;}
+.page-title h1, .page-title h2, .cms-changing-lives .title {font-size:2em;}
+.impact-ac .page-title {margin:0;}
+.ziggiee-impacts .no-right-gutter h3, .ziggiee-impacts .no-right-gutter, .ziggiee-impacts {margin-bottom:0;}
+.cms-discover-ziggie .page-title {margin-top: 0.5em;}
+.cms-changing-lives .title {margin:0 0 2px;}
+.the-designer > p {font-size: 1.2em;}
+.imp-sec p {font-size: 1.1em;}
+.page-title.contact-title h1 {top:-54px; font-size:2em;}
+.imp-sec {margin-top:1.25em;}
+.responsive .main {padding-top: 1em;}
+.responsive.category-products .main, .catalog-category-view .main {padding-top: 1.5em;}
+.pagination-pos-bottom-centered {padding:0 0 15px;}
+.header-mobile .header-top .item:not(.item-interface) {display:block;}
+#ticker {margin-top:6px;}
+#ticker-content{left:0px !important; text-transform:capitalize;}
+.catalog-category-view .page-title h1 {display:none;}
+}
+
+@media (min-width:480px) and (max-width:750px){
+.header-mobile #header-nav, .header-mobile #header-search, .header-mobile #header-cart {top:24.5%;}
+.header-mobile #header-account {top:25%;}
+.footer .grid12-4 {width:33.33% !important; float:left;}
+.footer .heading {margin-bottom:0.3em;}
+.ziggiee-impacts li {width:50% !important; float:left;}
+.ia-text {float:left; margin-right:3.5%;}
+.page-title.contact-title h1 {top:-80px; font-size:2.5em;}
+}
+
+@media only screen and (max-width:460px){
+.header-mobile .logo-wrapper--mobile .logo {margin: 1em 0 0.7em;}
+.header-mobile #header-cart {right:3%; width:80% !important;}
+.slider-right {text-align:center;}
+.header-image h1 {top:30%;}
+.footer .heading {margin-bottom:0;}
+.footer .grid12-4:nth-child(1) {width:40% !important; float:left;}
+.footer .grid12-4:nth-child(2) {width:60% !important; float:left;}
+.total-impact-account-list li {width: 92%; margin: 0 0 2%;}
+.ia-text h2 {width:230px;}
+.my-account .imp-org #print-pdf {float:none; margin: 6px 0;}
+#checkoutSteps .form-list .customer-name-middlename .field, #checkoutSteps .form-list .field:first-child, #checkoutSteps .form-list .field:last-child,
+.form-list li.wide .input-box,  #shipping-new-address-form li .fields .input-box, .customer-account .form-list li:nth-child(2) .input-box #email,
+.account-create .form-list .customer-name-middlename .field, .my-account .form-list .customer-name-middlename .field, .account-create .form-list .field,
+.my-account .form-list li.fields .field, .account-create .form-list li:nth-child(2) {float: left; width: 96%;}
+#checkoutSteps .form-list .customer-name-middlename .name-middlename input.input-text, #checkoutSteps .form-list .field.name-firstname input.input-text,
+.account-create .customer-name-middlename .name-firstname input.input-text, .account-create .form-list li:nth-child(2) input.input-text,
+.account-create .customer-name-middlename .name-middlename input.input-text, .account-create .form-list .field input.input-text,
+.my-account .customer-name-middlename .name-firstname input.input-text, .my-account .customer-name-middlename .name-middlename input.input-text,
+.my-account .form-list .field input.input-text {width: 100%;}
+.ziggiee-impacts li {margin-left:auto !important; margin-right:auto !important;}
+}
+
+@media only screen and (max-width:350px){
+.header-image h1, .soon {font-size: 1.7em;}
+}

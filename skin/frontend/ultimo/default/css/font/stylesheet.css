@@ -1,0 +1,59 @@
+
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('bebasneue_bold-webfont.woff2') format('woff2'),
+         url('bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('bebasneue_book-webfont.woff2') format('woff2'),
+         url('bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'bebas_neue_regularregular';
+    src: url('bebasneue_regular-webfont.woff2') format('woff2'),
+         url('bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('bebasneue_thin-webfont.woff2') format('woff2'),
+         url('bebasneue_thin-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'dinregular';
+    src: url('dinregular-webfont.woff2') format('woff2'),
+         url('dinregular-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dinmedium';
+    src: url('dinmedium-webfont.woff2') format('woff2'),
+         url('dinmedium-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'dinlight';
+    src: url('dinlight-webfont.woff2') format('woff2'),
+         url('dinlight-webfont.woff') format('woff');
+    font-weight: normal; font-style: normal;
+
+}

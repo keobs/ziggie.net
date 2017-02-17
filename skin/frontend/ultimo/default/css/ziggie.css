@@ -48,7 +48,7 @@ h3 {font-size:1.5em; line-height: 1.5em;}
 .form-search .input-text:hover + .button, .form-search .button:hover {color:#242424; opacity:1;}
 
 .header-primary {padding:1.2em 0;}
-.header .logo-wrapper .logo {max-width:100%; margin:18px 0 0;}
+.header .logo-wrapper .logo {max-width:100%; margin:0;}
 .nav-container, .navi-wrapper, .nav-regular, .sticky-header .nav-container, .sticky-header .navi-wrapper, .sticky-header .nav-regular:not(.nav-vert) {background-color:#fafafa;}
 .nav-regular .nav-item.level0 > a, .nav-regular:not(.nav-vert) .nav-item.level0 > a, .sticky-header .nav-regular:not(.nav-vert) .nav-item.level0 > a {color:#565656;}
 .nav-regular:not(.nav-vert) .nav-item.level0.active > a, .nav-regular:not(.nav-vert) .nav-item.level0:hover > a {background-color:#000; color:#fff;}
@@ -504,7 +504,7 @@ div[itemprop="offers"]{/*display: none;*/}
 #ticker-wrapper.has-js {
 	margin: 0;
 	padding: 0;
-	height: 32px;
+	height: auto;
 	display: block;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -521,7 +521,7 @@ div[itemprop="offers"]{/*display: none;*/}
 	position: relative;
 	overflow: hidden;
 	background-color: #272727;
-	margin: 12px 0 0 0;
+	margin: 7px 0 0 0;
 
 }
 

@@ -50,13 +50,13 @@ h3 {font-size:1.5em; line-height: 1.5em;}
 .header-primary {padding:1.2em 0;}
 .header .logo-wrapper .logo {max-width:100%; margin:0;}
 .nav-container, .navi-wrapper, .nav-regular, .sticky-header .nav-container, .sticky-header .navi-wrapper, .sticky-header .nav-regular:not(.nav-vert) {background-color:#fafafa;}
-.nav-regular .nav-item.level0 > a, .nav-regular:not(.nav-vert) .nav-item.level0 > a, .sticky-header .nav-regular:not(.nav-vert) .nav-item.level0 > a {color:#565656;}
+.nav-regular .nav-item.level0 > a, .nav-regular:not(.nav-vert) .nav-item.level0 > a, .sticky-header .nav-regular:not(.nav-vert) .nav-item.level0 > a {color:#333;}
 .nav-regular:not(.nav-vert) .nav-item.level0.active > a, .nav-regular:not(.nav-vert) .nav-item.level0:hover > a {background-color:#000; color:#fff;}
 
 .header-container nav .nav-item--home, .breadcrumbs {display:none;}
 .header-regular .nav {margin-bottom:0;}
 .nav-regular .nav-item {margin-right:0.1em;}
-.nav-regular .nav-item.level0 > a {padding:0.9em 1.5em;}
+.nav-regular .nav-item.level0 > a {padding:0.7em 1.5em;}
 .vertnav-trigger, .nav-regular .nav-item.level0 > a {font-size:13px; line-height:normal; font-weight:normal; font-family: 'dinmedium';
     text-transform: uppercase;}
 .cms-wearable .main-container {margin-top:1.9em;}
@@ -915,4 +915,11 @@ h2 {font-size:2.2em;}
 
 @media only screen and (max-width:350px){
 .header-image h1, .soon {font-size: 1.7em;}
+}
+
+
+/* Keobs Edits */
+
+.nav.container.clearer, .navi-wrapper {
+    height: 35px;
 }
